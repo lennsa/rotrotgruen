@@ -1,6 +1,12 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
+
+import Home from '@/views/Home'
+import Letter from '@/views/Letter'
+import Signatories from '@/views/Signatories'
+import Press from '@/views/Press'
+import Contact from '@/views/Contact'
+import Sign from '@/views/Sign'
 
 Vue.use(Router)
 
@@ -30,6 +36,11 @@ export default new Router({
       path: '/kontakt',
       name: 'Contact',
       component: Contact
+    },
+    {
+      path: '/mitunterzeichner-werden',
+      name: 'Sign',
+      component: Sign
     }
   ]
 })

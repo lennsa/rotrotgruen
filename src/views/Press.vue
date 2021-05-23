@@ -1,10 +1,12 @@
 <template>
-
+  <div class="container">
+    <h1>Pressestimmen:</h1>
+  </div>
 </template>
 
 <script>
 export default {
-  name: 'letter',
+  name: 'Press',
   data () {
     return { }
   }
