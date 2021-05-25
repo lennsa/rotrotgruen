@@ -23,6 +23,7 @@ export default {
 
 :root {
   --green: rgb(27, 115, 64);
+  --red: rgb(201, 39, 39);
   --gray: #A6A6A6;
   --background: rgb(239, 239, 239);
   --black: black;
