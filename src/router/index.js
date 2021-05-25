@@ -1,4 +1,3 @@
-import Vue from 'vue'
 import Router from 'vue-router'
 
 import Home from '@/views/Home'
@@ -7,8 +6,6 @@ import Signatories from '@/views/Signatories'
 import Press from '@/views/Press'
 import Contact from '@/views/Contact'
 import Sign from '@/views/Sign'
-
-Vue.use(Router)
 
 export default new Router({
   routes: [
