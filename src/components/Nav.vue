@@ -13,12 +13,7 @@ export default {
   name: 'Nav',
   data () {
     return {
-      pages: [
-        {name: 'Offener Brief', path_name: 'Letter'},
-        {name: 'Unterzeichner*innen', path_name: 'Signatories'},
-        {name: 'Presse', path_name: 'Press'},
-        {name: 'Kontakt', path_name: 'Contact'}
-      ]
+      pages: this.$nav.pages
     }
   }
 }
@@ -30,20 +25,21 @@ export default {
   font-family: 'Jost', Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color : var(--gray);
-  font-size: 1.5em;
+  font-size: 2rem;
 }
 
 ul {
   display: flex;
+  flex-flow: wrap;
 }
 
 li {
-  padding: 0.1em 0.5em;
+  padding: 0 0.6rem;
   list-style-type: none;
 }
 
 li + li {
-  border-left: 3px solid var(--gray);
+  border-left: 4px solid var(--gray);
 }
 
 li.router-link-active {

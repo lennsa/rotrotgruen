@@ -38,16 +38,24 @@ body {
   min-height: 100vh;
   background-color: var(--background);
   font-family: 'Barlow', Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
 }
 
 h1, h2 {
   color: var(--green);
-  font-size: 2.5em;
+  font-size: 2.6rem;
   font-family: 'Jost', Helvetica, Arial, sans-serif;
+  line-height: 1em;
 }
 
 .container {
-  padding: 5em 1em 1em;
+  padding-top: 10rem;
+  min-height: 100vh;
 }
 
+.container-item {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
 </style>
