@@ -58,4 +58,8 @@ h1, h2 {
   padding-left: 4rem;
   padding-right: 4rem;
 }
+
+.bottom {
+  padding-bottom: 4rem;
+}
 </style>

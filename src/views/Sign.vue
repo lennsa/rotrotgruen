@@ -1,15 +1,15 @@
 <template>
   <div class="container">
-    <h1 class="container-item">Mitunterzeichner*in werden</h1>
+    <h1 class="container-item">Mitunter​zeichner*in werden</h1>
 
     <div v-if="success" class="container-item">
-      <div class="success">
+      <div class="bottom success">
         Danke für deine Unterstützung!
       </div>
     </div>
 
     <div v-if="!initial && !success" class="container-item">
-      <div class="error">
+      <div class="bottom error">
         Etwas ist schiefgelaufen.
       </div>
     </div>
@@ -27,7 +27,7 @@
         <label>Organization:</label><br>
         <input v-model="organization" placeholder="Deine Organisation">
       </div>
-      <button @click.prevent="sendPost()" :disabled="disabled">Unterschreiben</button>
+      <button class="button bottom" @click.prevent="sendPost()" :disabled="disabled">Unterschreiben</button>
     </form>
 
   </div>
@@ -84,15 +84,17 @@ form {
 input {
   padding: 0.5em;
   width: 20em;
+  max-width: 100%;
   border: 2px solid var(--gray);
   font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
 }
 
-button {
+.button {
   padding: 0.5em;
   width: 20em;
+  max-width: 100%;
   border: 2px solid var(--green);
   background-color: var(--green);
   color: var(--white);
@@ -109,6 +111,7 @@ button:disabled {
 .success {
   padding: 1em;
   width: 20em;
+  max-width: 100%;
   background-color: var(--green);
   color: var(--white);
 }
@@ -116,6 +119,7 @@ button:disabled {
 .error {
   padding: 1em;
   width: 20em;
+  max-width: 100%;
   background-color: var(--red);
   color: var(--white);
 }
