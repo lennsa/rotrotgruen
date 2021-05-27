@@ -8,7 +8,8 @@ Vue.prototype.$openletter = {
   letterId: 1
 }
 
-Vue.prototype.$pdf = '/static/letter.pdf';
+Vue.prototype.$pdf = '/static/letter.pdf'
+Vue.prototype.$shareURL = 'https://twitter.com/intent/tweet?source=http%3A%2F%2Flocalhost%3A8080&text=TestTitle:%20http%3A%2F%2Flocalhost%3A8080'
 
 Vue.prototype.$emails = {
   info: 'info@klimakoa.de',

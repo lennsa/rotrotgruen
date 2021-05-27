@@ -2,7 +2,7 @@
   <div class="container">
     <img class="right-image" src="/static/letter-small.png">
     <div class="buttons">
-      <a class="svg-link">
+      <a class="svg-link" :href="shareURL" target="_blank" title="Teilen">
         <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 375 375" version="1.2">
           <defs><clipPath id="a"><path d="M21.652 4.336H353v366H21.652zm0 0"/></clipPath></defs>
           <g clip-path="url(#a)">
@@ -10,7 +10,7 @@
           </g>
         </svg>
       </a>
-      <a class="svg-link" :href='pdf' target="_blank">
+      <a class="svg-link" :href='pdf' target="_blank" title="Brief PDF">
         <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 375 375" version="1.2">
           <defs><clipPath id="a"><path d="M23 4.84h329v365.25H23zm0 0"/></clipPath></defs>
           <g clip-path="url(#a)">
@@ -39,7 +39,8 @@ export default {
         title: '',
         description: ''
       },
-      pdf: this.$pdf
+      pdf: this.$pdf,
+      shareURL: this.$shareURL
     }
   },
   created () {
@@ -64,9 +65,8 @@ export default {
 <style scoped>
 .right-image {
   float: right;
-  width: 55%;
+  width: min(calc(45% + 15rem), 100%);
   height: auto;
-  margin: 1rem;
 }
 
 svg {
@@ -75,12 +75,12 @@ svg {
 }
 
 .buttons {
-  margin: 2rem;
+  margin: 1rem;
   text-align: right;
 }
 
-.svg-link {
-  margin: 0.2rem;
+.svg-link +.svg-link {
+  margin-right: 1.5rem;
 }
 
 .more {
