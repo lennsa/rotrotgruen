@@ -22,5 +22,6 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 ## Development
 
-The pages are located in the `src/views` folder and get served by the router (`src/router/index.js`).
+The pages are located in the `src/views` folder and get served by the router (`src/router.js`).
 
+The configuration for the openletter API can be found in `src/config.js`.
