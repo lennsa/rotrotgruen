@@ -8,6 +8,8 @@ Vue.prototype.$openletter = {
   letterId: 1
 }
 
+Vue.prototype.$pdf = '/static/letter.pdf';
+
 Vue.prototype.$emails = {
   info: 'info@klimakoa.de',
   press: 'presse@klimakoa.de'
