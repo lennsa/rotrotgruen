@@ -1,23 +1,23 @@
 <template>
   <div class="container">
     <h1 hidden="hidden">Erstunterzeichner*innen:</h1>
-    <h2 class="container-item">Erstunterzeichner*innen:</h2>
+    <h2 class="container-item">Erstunter​zeichner*innen:</h2>
     <div class="signatories container-item">
       <p v-for="(signator, index) in firstSignatories" :key="index" class="container-item">
         <span class="name">{{ signator.name }}</span> {{ signator.organization }}
       </p>
     </div>
-    <h2 class="container-item">Mitunterzeichner*innen: <span>{{ signatorieCount }}</span></h2>
+    <h2 class="container-item">Mitunter​zeichner*innen: <span>{{ signatorieCount }}</span></h2>
     <div class="container-item">
       <SignButton></SignButton>
     </div>
-    <div class="signatories container-item" v-if="show" >
+    <div class="signatories container-item bottom" v-if="show" >
       <p v-for="(signator, index) in signatories" :key="index" class="container-item">
         <span class="name">{{ signator.name }}</span> {{ signator.organization }}
       </p>
     </div>
-    <div class="container-item" v-if="!show && signatorieCount" >
-      <button @click.prevent="expand()" class="sign-button expand">Unterstützer*innen anzeigen</button>
+    <div class="container-item bottom" v-if="!show && signatorieCount" >
+      <button @click.prevent="expand()" class="sign-button expand">Unterstützer*​innen anzeigen</button>
     </div>
   </div>
 </template>

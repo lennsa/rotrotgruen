@@ -1,5 +1,5 @@
 <template>
-  <router-link class="sign-button" :to="{name: 'Sign'}" exact>Mitunterzeichner*in<br>werden</router-link>
+  <router-link class="sign-button" :to="{name: 'Sign'}" exact>Mitunter​zeichner*in<br>werden</router-link>
 </template>
 
 <script>
