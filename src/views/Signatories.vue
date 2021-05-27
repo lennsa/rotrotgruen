@@ -92,6 +92,6 @@ export default {
 }
 
 h2 {
-  margin: 0;
+  margin-bottom: 0;
 }
 </style>
