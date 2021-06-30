@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <h1 hidden="hidden">Erstunterzeichner*innen:</h1>
-    <h2 class="container-item">Erstunter​zeichner*innen:</h2>
-    <div class="signatories container-item">
+    <h1 hidden="true">Unterzeichner*innen:</h1>
+    <h2 v-if="firstSignatories.length" class="container-item">Erstunter​zeichner*innen:</h2>
+    <div v-if="firstSignatories.length" class="signatories container-item">
       <p v-for="(signator, index) in firstSignatories" :key="index" class="container-item">
         <span class="name">{{ signator.name }}</span> {{ signator.organization }}
       </p>
