@@ -12,8 +12,7 @@ Vue.prototype.$pdf = '/static/letter.pdf'
 Vue.prototype.$shareURL = 'https://twitter.com/intent/tweet?source=http%3A%2F%2Flocalhost%3A8080&text=TestTitle:%20http%3A%2F%2Flocalhost%3A8080'
 
 Vue.prototype.$emails = {
-  info: 'info@klimakoa.de',
-  press: 'presse@klimakoa.de'
+  info: 'info@klimakoa.de'
 }
 
 Vue.prototype.$nav = {
@@ -27,47 +26,47 @@ Vue.prototype.$nav = {
 
 Vue.prototype.$press = {
   teasers: [
-    {
-      name: 'Zeit',
-      image: '/static/home.jpg',
-      logo: '/static/home.jpg',
-      text: 'Lorem IpsumLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
-    },
-    {
-      name: 'Zeit',
-      image: '/static/home.jpg',
-      logo: '/static/home.jpg',
-      text: 'Lorem IpsumLorem ipsum dolor sit amet, consetetur sadipscing elitr,'
-    },
-    {
-      name: 'Zeit',
-      image: '/static/home.jpg',
-      logo: '/static/home.jpg',
-      text: 'Lorem IpsumLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
-    },
-    {
-      name: 'Zeit',
-      image: '/static/home.jpg',
-      logo: '/static/home.jpg',
-      text: 'Lorem IpsumLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
-    }
+    // {
+    //   name: 'Zeit',
+    //   image: '/static/home.jpg',
+    //   logo: '/static/home.jpg',
+    //   text: 'Lorem IpsumLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+    // },
+    // {
+    //   name: 'Zeit',
+    //   image: '/static/home.jpg',
+    //   logo: '/static/home.jpg',
+    //   text: 'Lorem IpsumLorem ipsum dolor sit amet, consetetur sadipscing elitr,'
+    // },
+    // {
+    //   name: 'Zeit',
+    //   image: '/static/home.jpg',
+    //   logo: '/static/home.jpg',
+    //   text: 'Lorem IpsumLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+    // },
+    // {
+    //   name: 'Zeit',
+    //   image: '/static/home.jpg',
+    //   logo: '/static/home.jpg',
+    //   text: 'Lorem IpsumLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.'
+    // }
   ]
 }
 
 Vue.prototype.$signatories = {
   firstSignatories: [
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'},
-    {name: 'Torsten', organization: 'Ort'}
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'},
+    // {name: 'Torsten', organization: 'Ort'}
   ]
 }
 
