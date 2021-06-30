@@ -6,6 +6,7 @@ import Signatories from '@/views/Signatories'
 import Press from '@/views/Press'
 import Contact from '@/views/Contact'
 import Sign from '@/views/Sign'
+import Impressum from '@/views/Impressum'
 
 export default new Router({
   routes: [
@@ -38,6 +39,11 @@ export default new Router({
       path: '/mitunterzeichner-werden',
       name: 'Sign',
       component: Sign
+    },
+    {
+      path: '/impressum',
+      name: 'Impressum',
+      component: Impressum
     }
   ]
 })
