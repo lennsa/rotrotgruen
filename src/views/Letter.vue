@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <img class="right-image" src="/static/letter-small.png">
+    <img class="right-image" src="/static/letter-small.png" aria-hidden="true">
     <div class="buttons">
       <a class="svg-link" :href="shareURL" target="_blank" title="Teilen">
         <svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 375 375" version="1.2">

@@ -1,7 +1,7 @@
 <template>
   <div class="press-teaser">
-    <img class="image" :src="teaser.image">
-    <img class="logo" :src="teaser.logo">
+    <img class="image" :src="teaser.image" aria-hidden="true">
+    <img class="logo" :src="teaser.logo" aria-hidden="true">
     <p class="text">{{ teaser.text }}</p>
   </div>
 </template>

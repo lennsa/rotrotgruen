@@ -1,6 +1,6 @@
 <template>
   <div class="nav">
-    <router-link class="logolink" :to="{name: 'Home'}"><img src="/static/logo.svg"></router-link>
+    <router-link class="logolink" :to="{name: 'Home'}" title="Startseite"><img src="/static/logo.svg" aria-hidden="true"></router-link>
     <ul>
       <router-link v-for="(page, index) in pages" :key="index" tag="li" :to="{name: page.path_name}" exact>
         <a class="navlink">{{ page.name }}</a>
