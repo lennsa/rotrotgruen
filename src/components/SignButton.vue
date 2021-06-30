@@ -23,5 +23,6 @@ export default {
   display: inline-block;
   text-align: center;
   margin-top: 2rem;
+  margin-bottom: 4rem;
 }
 </style>

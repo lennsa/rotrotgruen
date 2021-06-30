@@ -65,8 +65,16 @@ export default {
 <style scoped>
 .right-image {
   float: right;
-  width: min(calc(45% + 15rem), 100%);
+  width: 60%;
   height: auto;
+}
+
+@media screen and (max-width: 1200px) {
+  .right-image {
+    width: 100%;
+    max-height: 20rem;
+    object-fit: cover;
+  }
 }
 
 svg {
@@ -75,11 +83,12 @@ svg {
 }
 
 .buttons {
-  margin: 1rem;
   text-align: right;
 }
 
-.svg-link +.svg-link {
+.svg-link {
+  display: inline-block;
+  margin-top: 1.5rem;
   margin-right: 1.5rem;
 }
 

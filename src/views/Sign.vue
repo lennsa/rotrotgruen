@@ -101,6 +101,7 @@ input {
   font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
+  margin-bottom: 4rem;
 }
 
 button:disabled {

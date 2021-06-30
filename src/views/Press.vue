@@ -32,4 +32,10 @@ export default {
   grid-gap: 4rem;
 }
 
+@media screen and (max-width: 650px) {
+  .teaser-list {
+    padding: 0 0 4rem;
+  }
+}
+
 </style>

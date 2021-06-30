@@ -48,7 +48,6 @@ ul {
 }
 
 li {
-  margin-top: 0.2rem;
   padding: 0 0.6rem;
   list-style-type: none;
 }
@@ -64,6 +63,20 @@ li.router-link-active {
 .navlink {
   color: inherit;
   text-decoration: none;
+}
+
+@media screen and (max-width: 1200px) {
+  ul {
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 100%;
+  }
+
+  li + li {
+    border-left: 0 solid var(--gray);
+    border-top: 4px solid var(--gray);
+  }
 }
 
 </style>

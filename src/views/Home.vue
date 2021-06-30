@@ -47,4 +47,14 @@ export default {
   color: var(--white);
   margin-top: 0;
 }
+
+@media screen and (max-width: 700px) {
+  .header span {
+    font-size: 1rem;
+  }
+
+  .header h1 {
+    font-size: 3rem;
+  }
+}
 </style>
