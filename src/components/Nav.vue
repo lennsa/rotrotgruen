@@ -30,6 +30,7 @@ export default {
 
 .logolink {
   float: left;
+  margin: 1rem;
 }
 
 img {
@@ -65,7 +66,7 @@ li.router-link-active {
   text-decoration: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1220px) {
   ul {
     flex-direction: column;
     padding-left: 2rem;
