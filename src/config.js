@@ -19,7 +19,7 @@ Vue.prototype.$nav = {
   pages: [
     {name: 'Offener Brief', path_name: 'Letter'},
     {name: 'Unterzeich​ner*innen', path_name: 'Signatories'},
-    {name: 'Presse', path_name: 'Press'},
+    // {name: 'Presse', path_name: 'Press'},
     {name: 'Kontakt', path_name: 'Contact'}
   ]
 }
