@@ -8,8 +8,8 @@ Vue.prototype.$openletter = {
   letterId: 1
 }
 
-Vue.prototype.$pdf = '/static/letter.pdf'
-Vue.prototype.$shareURL = 'https://twitter.com/intent/tweet?source=http%3A%2F%2Flocalhost%3A8080&text=TestTitle:%20http%3A%2F%2Flocalhost%3A8080'
+Vue.prototype.$pdf = '/static/Offener_Brief.pdf'
+Vue.prototype.$shareURL = 'https://twitter.com/intent/tweet?text=Ein%20offener%20Brief%20fordert%20die%20%F0%9F%94%B4%F0%9F%94%B4%F0%9F%9F%A2-Kandidat*innen%20auf,%20sich%20offen%20f%C3%BCr%20ein%20gemeinsames,%20progressives%20B%C3%BCndnis%20zu%20zeigen.%0A%0ASchau%20ihn%20dir%20an%20und%20unterschreibe%20auch!%0AF%C3%BCr%20eine%20%23KlimaKoa%0A%23NieMehrCDU%0A%0Awww.klimakoa.de'
 
 Vue.prototype.$emails = {
   info: 'info@klimakoa.de'
